@@ -1,6 +1,8 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
-    System.out.println("Ini akmal!");
+    int c = 2;
+    int a = 2*++c;
+    System.out.println(a+"");
+    
   }
 }
